@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f;
+    justify-self: center;
+}
+
+#head-logo {
+    background-color: #7fdbff;
+    border-radius: 50px;
+    width: 1000px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
