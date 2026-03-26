@@ -132,14 +132,12 @@ nav ul li a {
 
 .fisherton { flex: 1; }
 .fishery {
-    font-family: 'Crimson Pro', serif;
+    font-family: 'crimson pro', serif;
     font-size: 0.85rem;
-    color: var(--star-white);
     margin-bottom: 0.2rem;
 }
 .crab {
     font-size: 0.75rem;
-    color: var(--dim);
     line-height: 1.5;
 }
 
@@ -161,6 +159,43 @@ nav ul li a {
 #footer p {
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.social {
+    display: flex;
+    gap: 16px;
+}
+
+.social a img {
+    width: 28px;
+    height: 28px;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.social a:hover img {
+    opacity: 1;
+}
+
+@media (max-width: 700px) {
+    .imagegrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #container-page {
+        border-radius: 30px;
+    }
+
+    #mainpage {
+        padding: 0 20px;
+    }
+
+    #footer {
+        flex-direction: column;
+        gap: 12px;
+        padding: 20px;
+        text-align: center;
+    }
 }
 
 
